@@ -3,7 +3,7 @@ const app = express()
 const port = process.env.PORT || 8080
 
 app.get('/', (req, res) => {
-  res.sendFile("/home/spiralling/web/views/hellen.html")
+  res.sendFile(__dirname + "/views/hellen.html")
 })
 
 app.get('/hellen', (req, res) => {
@@ -11,11 +11,11 @@ app.get('/hellen', (req, res) => {
 })
 
 app.get('/false/hellen', (req, res) => {
-  res.sendFile("/home/spiralling/web/views/hellen.html")
+  res.sendFile(__dirname + "/views/hellen.html")
 })
 
 app.get('/true/hellen', (req, res) => {
-  res.sendFile("/home/spiralling/web/views/hellen.txt")
+  res.sendFile(__dirname + "/views/hellen.txt")
 })
 
 app.listen(port, () => {
