@@ -26,6 +26,30 @@ app.get('/yeats-aeschylus-teasdale', (req, res) => {
   res.sendFile(__dirname + "/views/final.txt")
 })
 
+app.get('/yeats-teasdale-aeschylus', (req, res) => {
+  res.sendFile(__dirname + "/views/final.txt")
+})
+
+app.get('/teasdale-yeats-aeschylus', (req, res) => {
+  res.sendFile(__dirname + "/views/final.txt")
+})
+
+app.get('/teasdale-aeschylus-yeats', (req, res) => {
+  res.sendFile(__dirname + "/views/final.txt")
+})
+
+app.get('/aeschylus-yeats-teasdale', (req, res) => {
+  res.sendFile(__dirname + "/views/final.txt")
+})
+
+app.get('/aeschylus-teasdale-yeats', (req, res) => {
+  res.sendFile(__dirname + "/views/final.txt")
+})
+
+app.get('/poet-poet-poet', (req, res) => {
+  res.sendFile(__dirname + "/views/poet-miss.html")
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
