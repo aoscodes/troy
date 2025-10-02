@@ -47,7 +47,7 @@ app.get('/aeschylus-teasdale-yeats', (req, res) => {
 })
 
 app.get('/poet-poet-poet', (req, res) => {
-  res.sendFile(__dirname + "/views/poet-miss.html")
+  res.sendFile(__dirname + "/views/poets-miss.html")
 })
 
 app.listen(port, () => {
