@@ -23,27 +23,27 @@ app.get('/burning', (req, res) => {
 })
 
 app.get('/yeats-aeschylus-teasdale', (req, res) => {
-  res.sendFile(__dirname + "/views/final.txt")
+  res.sendFile(__dirname + "/views/final.html")
 })
 
 app.get('/yeats-teasdale-aeschylus', (req, res) => {
-  res.sendFile(__dirname + "/views/final.txt")
+  res.sendFile(__dirname + "/views/final.html")
 })
 
 app.get('/teasdale-yeats-aeschylus', (req, res) => {
-  res.sendFile(__dirname + "/views/final.txt")
+  res.sendFile(__dirname + "/views/final.html")
 })
 
 app.get('/teasdale-aeschylus-yeats', (req, res) => {
-  res.sendFile(__dirname + "/views/final.txt")
+  res.sendFile(__dirname + "/views/final.html")
 })
 
 app.get('/aeschylus-yeats-teasdale', (req, res) => {
-  res.sendFile(__dirname + "/views/final.txt")
+  res.sendFile(__dirname + "/views/final.html")
 })
 
 app.get('/aeschylus-teasdale-yeats', (req, res) => {
-  res.sendFile(__dirname + "/views/final.txt")
+  res.sendFile(__dirname + "/views/final.html")
 })
 
 app.get('/poet-poet-poet', (req, res) => {
